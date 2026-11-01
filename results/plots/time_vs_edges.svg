@@ -1,0 +1,46 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='450' font-family='sans-serif' font-size='12'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='70' y='24' font-size='16' font-weight='bold'>Execution time vs number of edges</text>
+<line x1='70.0' y1='40' x2='70.0' y2='390' stroke='#ddd'/><text x='70.0' y='408' text-anchor='middle'>1e1</text>
+<line x1='223.3' y1='40' x2='223.3' y2='390' stroke='#ddd'/><text x='223.3' y='408' text-anchor='middle'>1e2</text>
+<line x1='376.7' y1='40' x2='376.7' y2='390' stroke='#ddd'/><text x='376.7' y='408' text-anchor='middle'>1e3</text>
+<line x1='530.0' y1='40' x2='530.0' y2='390' stroke='#ddd'/><text x='530.0' y='408' text-anchor='middle'>1e4</text>
+<line x1='70' y1='390.0' x2='530' y2='390.0' stroke='#ddd'/><text x='64' y='394.0' text-anchor='end'>1e-3</text>
+<line x1='70' y1='302.5' x2='530' y2='302.5' stroke='#ddd'/><text x='64' y='306.5' text-anchor='end'>1e-2</text>
+<line x1='70' y1='215.0' x2='530' y2='215.0' stroke='#ddd'/><text x='64' y='219.0' text-anchor='end'>1e-1</text>
+<line x1='70' y1='127.5' x2='530' y2='127.5' stroke='#ddd'/><text x='64' y='131.5' text-anchor='end'>1e0</text>
+<line x1='70' y1='40.0' x2='530' y2='40.0' stroke='#ddd'/><text x='64' y='44.0' text-anchor='end'>1e1</text>
+<rect x='70' y='40' width='460' height='350' fill='none' stroke='black'/>
+<text x='300' y='435' text-anchor='middle'>Edges (E) (log scale)</text>
+<text x='15' y='215' text-anchor='middle' transform='rotate(-90 15 215)'>Average time, ms (log scale)</text>
+<circle cx='143.2' cy='302.4' r='4' fill='#1f77b4'/>
+<circle cx='330.5' cy='198.7' r='4' fill='#1f77b4'/>
+<circle cx='483.8' cy='137.5' r='4' fill='#1f77b4'/>
+<polyline points='143.2,302.4 330.5,198.7 483.8,137.5 ' fill='none' stroke='#1f77b4' stroke-width='2'/>
+<line x1='545' y1='60' x2='570' y2='60' stroke='#1f77b4' stroke-width='3'/><text x='576' y='64'>Kruskal</text>
+<circle cx='143.2' cy='293.9' r='4' fill='#d62728'/>
+<circle cx='330.5' cy='206.2' r='4' fill='#d62728'/>
+<circle cx='483.8' cy='108.9' r='4' fill='#d62728'/>
+<polyline points='143.2,293.9 330.5,206.2 483.8,108.9 ' fill='none' stroke='#d62728' stroke-width='2'/>
+<line x1='545' y1='82' x2='570' y2='82' stroke='#d62728' stroke-width='3'/><text x='576' y='86'>Prim</text>
+<circle cx='143.2' cy='313.2' r='4' fill='#2ca02c'/>
+<circle cx='330.5' cy='220.9' r='4' fill='#2ca02c'/>
+<circle cx='483.8' cy='167.7' r='4' fill='#2ca02c'/>
+<polyline points='143.2,313.2 330.5,220.9 483.8,167.7 ' fill='none' stroke='#2ca02c' stroke-width='2'/>
+<line x1='545' y1='104' x2='570' y2='104' stroke='#2ca02c' stroke-width='3'/><text x='576' y='108'>SCC (Kosaraju)</text>
+<circle cx='143.2' cy='289.3' r='4' fill='#ff7f0e'/>
+<circle cx='330.5' cy='248.9' r='4' fill='#ff7f0e'/>
+<circle cx='483.8' cy='172.0' r='4' fill='#ff7f0e'/>
+<polyline points='143.2,289.3 330.5,248.9 483.8,172.0 ' fill='none' stroke='#ff7f0e' stroke-width='2'/>
+<line x1='545' y1='126' x2='570' y2='126' stroke='#ff7f0e' stroke-width='3'/><text x='576' y='130'>Topo (DAG)</text>
+<circle cx='143.2' cy='370.3' r='4' fill='#9467bd'/>
+<circle cx='330.5' cy='312.4' r='4' fill='#9467bd'/>
+<circle cx='483.8' cy='198.7' r='4' fill='#9467bd'/>
+<polyline points='143.2,370.3 330.5,312.4 483.8,198.7 ' fill='none' stroke='#9467bd' stroke-width='2'/>
+<line x1='545' y1='148' x2='570' y2='148' stroke='#9467bd' stroke-width='3'/><text x='576' y='152'>Topo (cyclic)</text>
+<circle cx='143.2' cy='325.8' r='4' fill='#8c564b'/>
+<circle cx='330.5' cy='256.1' r='4' fill='#8c564b'/>
+<circle cx='483.8' cy='167.7' r='4' fill='#8c564b'/>
+<polyline points='143.2,325.8 330.5,256.1 483.8,167.7 ' fill='none' stroke='#8c564b' stroke-width='2'/>
+<line x1='545' y1='170' x2='570' y2='170' stroke='#8c564b' stroke-width='3'/><text x='576' y='174'>Dijkstra</text>
+</svg>
